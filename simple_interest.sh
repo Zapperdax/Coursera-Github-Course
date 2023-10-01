@@ -9,4 +9,4 @@ read -p "Enter the time period (in years): " time
 interest=$(echo "scale=2; $principal * $rate * $time" | bc)
 
 # Display the result
-echo "Simple Interest: $interes"
+echo "Simple Interest: $interest"
